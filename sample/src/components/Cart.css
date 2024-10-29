@@ -1,0 +1,159 @@
+:root{
+    --dark--:#113946;
+    --light--:#ead7bb;
+}
+.c-img{
+    width: 50px;
+    height: 50px;
+    
+}
+.c-title{
+    color: var(#ead7bb);
+    font-size: 15px;
+    
+
+}
+.c-price{
+    color: green;
+    font-size: 15px;
+}
+.li{
+    color: var(#ead7bb);
+}
+.card-form{
+    /* display:flex;
+    flex-direction: column; */
+    width: 190px;
+    text-transform: capitalize;
+
+}
+.cart-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin-left: 20px;
+     margin-right: 20px;
+   
+    justify-content: space-around;
+   color: #000;
+   gap: 20px;
+    /* border: 2px solid var(--light--); */
+}
+.cart-btn{
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--dark--);
+    color: #ead7bb;
+}
+.cart{
+   display: flex;
+justify-content: space-between;
+border: 2px solid var(--light--);
+padding: 30px 100px;
+}
+.total{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.valofcart{
+    text-transform: capitalize;
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.valofcart span{
+    color: green;
+   
+}
+.totalcart{
+    text-transform: capitalize;
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.totalcart span{
+    color: green;
+   
+}
+.addone{
+    width: 4cap;
+    height: 30px;
+    
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--dark--);
+    color: #ead7bb;
+
+}
+.addnum{
+    margin: 10px;
+}
+.cartempty{
+    font-size: 40px;
+    color:black;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:769px){
+    .cart{
+        display: flex;
+     justify-content: space-between;
+     border: 2px solid var(--light--);
+    padding: 20px !important;
+     }
+     .cart-btn{
+        width: 150px;
+        height: 30px;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-top: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--dark--);
+        color: #ead7bb;
+    }
+    .total{
+        border: 2px solid black;
+        margin-top: 10px;
+       
+        font-size: 12px;
+        
+        
+    }
+    .valofcart{
+        text-transform: capitalize;
+        margin-left: 19px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .valofcart span{
+        color: green;
+       
+    }
+    .totalcart{
+        text-transform: capitalize;
+        margin-left: 19px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .totalcart span{
+        color: green;
+       
+    }
+}
+
